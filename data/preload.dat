@@ -1,0 +1,21 @@
+# Clients - 4 instances (ids CL1000, CL1001, CL1002, CL1003)
+{"class":"Client", "name":"Ubisoft Entertainment"}
+{"class":"Client", "name":"Electronic Arts Inc"}
+{"class":"Client", "name":"Bethesda Softworks LLC"}
+{"class":"Client", "name":"Blizzard Entertainment Inc"}
+# Contractors - 5 instances (ids CR1004, CR1005, CR1006, CR1007, CR1008)
+{"class":"Contractor", "name":"Jill Doe",        "speciality":"C++"}
+{"class":"Contractor", "name":"Sarah Smith",     "speciality":"3D Modelling"}
+{"class":"Contractor", "name":"Ali Ashad",       "speciality":"C++"}
+{"class":"Contractor", "name":"Blessing Ngonga", "speciality":"Audio"}
+{"class":"Contractor", "name":"Dave Jones",      "speciality":"Python"}
+# Contracts - 9 instances (ids CT1009, CT1010, CT1011, CT1012, CT1013, CT1014, CT1015, CT1016, CT1017)
+{"class":"Contract",          "owner_id":"CL1001", "contractor_allocated_id": "",       "speciality":"Audio",        "payment":850.0,  "completed":False}
+{"class":"AdvertFeeContract", "owner_id":"CL1000", "contractor_allocated_id": "CR1006", "speciality":"C++",          "payment":700.0,  "completed":True}
+{"class":"Contract",          "owner_id":"CL1002", "contractor_allocated_id": "",       "speciality":"C++",          "payment":1500.0, "completed":False}
+{"class":"FixedFeeContract",  "owner_id":"CL1001", "contractor_allocated_id": "",       "speciality":"Python",       "payment":280.0,  "completed":False}
+{"class":"FixedFeeContract",  "owner_id":"CL1002", "contractor_allocated_id": "",       "speciality":"3D Modelling", "payment":375.0,  "completed":False}
+{"class":"AdvertFeeContract", "owner_id":"CL1000", "contractor_allocated_id": "",       "speciality":"Agile Scrum",  "payment":900.0,  "completed":False}
+{"class":"FixedFeeContract",  "owner_id":"CL1002", "contractor_allocated_id": "",       "speciality":"C++",          "payment":2310.0, "completed":False}
+{"class":"Contract",          "owner_id":"CL1002", "contractor_allocated_id": "CR1005", "speciality":"3D Modelling", "payment":435.0,  "completed":False}
+{"class":"AdvertFeeContract", "owner_id":"CL1003", "contractor_allocated_id": "",       "speciality":"Audio",        "payment":4605.0, "completed":False}
